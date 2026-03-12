@@ -13,7 +13,10 @@ export function TodoList() {
   return (
     <>
       <h1>Todo List</h1>
+      <input/>
+      <button>Add</button>
       <div>
+        
         <ul>
           {todo.map((task) => (
             <li key={task.id}>{task.title}</li>
